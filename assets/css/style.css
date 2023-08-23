@@ -1,0 +1,66 @@
+/* Overrides browser defaults for margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Sets body elements to flex column,sets default colours and sets pixels to 16 to avoid issues on browsers with adjusted font sizes */
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: green;
+  color: gray;
+  font-size: 16px;
+}
+
+/* Removes default anchor decorations and sets deault colour to grey */
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+/* Logo and navigation section */
+.logo-navigation-header {
+  background-color: purple;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.logo {
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.logo a:hover {
+  background-color: gray;
+  color: black;
+}
+
+.navigation ul {
+  background-color: black;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  list-style: none;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.navigation a:hover {
+  background-color: gray;
+  color: black;
+}
+/* main section */
+#main {
+  margin-top: 100px;
+  background-color: blue;
+  height: 100vh;
+}
