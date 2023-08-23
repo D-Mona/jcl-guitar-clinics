@@ -58,9 +58,18 @@ a {
   background-color: gray;
   color: black;
 }
-/* main section */
-#main {
-  margin-top: 100px;
+
+/* Hero image section */
+#hero-image-container {
   background-color: blue;
-  height: 100vh;
+  margin-top: 100px;
+  margin-bottom: 6px;
+}
+
+#hero-image img {
+  object-fit: fill;
+  height: 50%;
+  width: 100%;
+  margin-top: 4px;
+  margin-bottom: 0;
 }
