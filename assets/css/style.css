@@ -67,9 +67,29 @@ a {
 }
 
 #hero-image img {
-  object-fit: fill;
-  height: 50%;
   width: 100%;
   margin-top: 4px;
-  margin-bottom: 0;
+}
+
+/* About section */
+#about-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: chartreuse;
+}
+
+#about-section h1 {
+  background-color: darkgoldenrod;
+  padding-top: 20px;
+  padding-bottom: 16px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration-line: overline;
+  text-align: center;
+}
+
+#about-section p {
+  padding: 16px;
+  text-transform: capitalize;
 }
