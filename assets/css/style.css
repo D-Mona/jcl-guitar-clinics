@@ -93,3 +93,47 @@ a {
   padding: 16px;
   text-transform: capitalize;
 }
+
+/* Host section */
+#host-section {
+  background-color: yellow;
+  text-align: center;
+  padding: 16px;
+}
+
+#host-section h2 {
+  background-color: red;
+  padding-top: 32px;
+  padding-bottom: 20px;
+  color: white;
+  text-transform: capitalize;
+}
+
+#host-picture-quote-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: aqua;
+}
+
+#host-quote {
+  background-color: brown;
+  width: 50%;
+  padding: 16px;
+  align-self: center;
+}
+
+#host-picture-container {
+  background-color: cadetblue;
+  width: 50%;
+  align-self: center;
+}
+
+#host-picture-container img {
+  width: 100%;
+  border-radius: 90%;
+}
+
+/* #signature{
+  
+} */
