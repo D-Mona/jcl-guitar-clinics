@@ -46,7 +46,7 @@ a {
   color: black;
 }
 
-.navigation ul {
+.site-navigation {
   background-color: black;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -58,7 +58,7 @@ a {
   flex-wrap: wrap;
 }
 
-.navigation a:hover {
+.site-navigation a:hover {
   background-color: gray;
   color: black;
 }
@@ -83,7 +83,7 @@ a {
   background-color: chartreuse;
 }
 
-#about-section h1 {
+#about-section-heading {
   background-color: darkgoldenrod;
   padding-top: 20px;
   padding-bottom: 16px;
@@ -93,9 +93,11 @@ a {
   text-align: center;
 }
 
-#about-section p {
+#about-section-info {
   padding: 16px;
   text-transform: capitalize;
+  line-height: 1.2rem;
+  font-size: 1rem;
 }
 
 /* Host section */
@@ -188,5 +190,3 @@ a {
 .item-instagram {
   color: rgb(210, 80, 102);
 }
-
-
