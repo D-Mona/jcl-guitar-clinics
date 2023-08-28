@@ -152,4 +152,41 @@ a {
   border-radius: 90%;
 }
 
+/* Footer social links */
+.social-links-list {
+  background-color: black;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-evenly;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.footer-top {
+  padding-top: 16px;
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.item-youtube {
+  color: rgb(255, 0, 0);
+}
+
+.item-twitter {
+  color: rgb(94, 94, 200);
+}
+
+.item-facebook {
+  color: rgb(0, 0, 255);
+}
+
+.item-instagram {
+  color: rgb(210, 80, 102);
+}
+
 
