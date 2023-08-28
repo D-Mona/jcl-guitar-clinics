@@ -109,8 +109,9 @@ a {
 
 #host-section-container {
   background-color: blue;
-  padding: 8px;
+  padding: 16px;
   /* width: 50%; */
+  border-radius: 0.9rem;
 }
 
 #host-section h2 {
@@ -136,6 +137,10 @@ a {
   align-self: center;
 }
 
+#host-quote p {
+  font-family: "Satisfy", cursive;
+}
+
 #host-picture-container {
   background-color: cadetblue;
   width: 50%;
@@ -147,7 +152,4 @@ a {
   border-radius: 90%;
 }
 
-#signature{
-  font-family: 'Satisfy', cursive;
-  
-} 
+
