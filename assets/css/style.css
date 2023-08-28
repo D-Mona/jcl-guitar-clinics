@@ -97,12 +97,21 @@ a {
 /* Host section */
 #host-section {
   background-color: yellow;
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   padding: 16px;
+}
+
+#host-section-container {
+  background-color: blue;
+  padding: 8px;
+  /* width: 50%; */
 }
 
 #host-section h2 {
   background-color: red;
+  text-align: center;
   padding-top: 32px;
   padding-bottom: 20px;
   color: white;
