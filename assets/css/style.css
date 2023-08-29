@@ -70,7 +70,7 @@ a {
   margin-bottom: 6px;
 }
 
-#hero-image img {
+#hero-image {
   width: 100%;
   margin-top: 4px;
 }
@@ -83,7 +83,7 @@ a {
   background-color: chartreuse;
 }
 
-#about-section-heading {
+#about-heading {
   background-color: darkgoldenrod;
   padding-top: 20px;
   padding-bottom: 16px;
@@ -93,7 +93,7 @@ a {
   text-align: center;
 }
 
-#about-section-info {
+#about-info {
   padding: 16px;
   text-transform: capitalize;
   line-height: 1.2rem;
@@ -109,14 +109,14 @@ a {
   padding: 16px;
 }
 
-#host-section-container {
+#host-outer-container {
   background-color: blue;
   padding: 16px;
   /* width: 50%; */
   border-radius: 0.9rem;
 }
 
-#host-section h2 {
+#host-heading {
   background-color: red;
   text-align: center;
   padding-top: 32px;
@@ -137,11 +137,9 @@ a {
   width: 50%;
   padding: 16px;
   align-self: center;
-}
-
-#host-quote p {
   font-family: "Satisfy", cursive;
 }
+
 
 #host-picture-container {
   background-color: cadetblue;
