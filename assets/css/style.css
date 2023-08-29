@@ -257,3 +257,77 @@ a {
   color: black;
   background-color: green;
 }
+
+/* Registration page */
+#registration-container {
+  /* height: 100vh; */
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6rem;
+}
+
+#registration-status {
+  background-color: white;
+  color: red;
+  padding: 8px;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 1rem;
+  font-size: 1.25rem;
+}
+
+#registration-info {
+  background-color: blue;
+  padding: 8px;
+  text-align: center;
+  font-size: 1rem;
+  text-transform: capitalize;
+  line-height: 1.5rem;
+}
+
+#registration-image-container {
+  background-color: red;
+  width: 250px;
+  margin-bottom: 4rem;
+}
+
+#registration-form-container {
+  background: url("../images/electric-head-on.jpg") center / cover;
+  border-radius: 1rem;
+}
+
+#contact-form {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.form-field {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+#register-button {
+  margin-top: -8px;
+  background-color: black;
+  color: green;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: none;
+  font-style: oblique;
+  font-weight: 550;
+}
+
+#register-button:hover {
+  background-color: green;
+  color: black;
+}
