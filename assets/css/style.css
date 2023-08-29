@@ -147,7 +147,7 @@ a {
   align-self: center;
 }
 
-#host-picture-container img {
+#host-picture {
   width: 100%;
   border-radius: 90%;
 }
@@ -170,6 +170,7 @@ a {
   color: white;
   text-align: center;
   text-transform: capitalize;
+  font-size: 1.05rem;
   font-weight: bold;
 }
 
