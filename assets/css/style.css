@@ -56,7 +56,7 @@ a {
   display: flex;
   flex-direction: row;
   gap: 8px;
-  font-size: .85rem;
+  font-size: 0.85rem;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
@@ -127,6 +127,7 @@ a {
   padding-bottom: 20px;
   color: white;
   text-transform: capitalize;
+  font-size: 1.25rem;
 }
 
 #host-picture-quote-container {
@@ -173,7 +174,7 @@ a {
   color: white;
   text-align: center;
   text-transform: capitalize;
-  font-size: 1.05rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 
