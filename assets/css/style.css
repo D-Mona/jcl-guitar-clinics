@@ -338,13 +338,12 @@ a {
   background-color: brown;
   color: white;
   padding: 8px;
-  font-size: 1.75rem;
+  font-size: 1rem;
 }
 
 #instructors-container {
   margin-top: 3rem;
   background-color: blue;
-  padding-top: 2rem;
   padding-bottom: 2rem;
   display: flex;
   flex-direction: column;
