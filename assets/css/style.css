@@ -194,25 +194,6 @@ a {
   color: rgb(210, 80, 102);
 }
 
-@media (min-width: 540px) {
-  .logo {
-    font-size: 2.5rem;
-  }
-
-  .site-navigation {
-    font-size: 1.2rem;
-  }
-
-  #about-info {
-    line-height: 1.5rem;
-    font-size: 1.2rem;
-  }
-
-  #about-heading {
-    font-size: 2rem;
-  }
-}
-
 /* Location page */
 #location-section {
   background-color: firebrick;
@@ -331,6 +312,7 @@ a {
   background-color: green;
   color: black;
 }
+
 /* Instructors page */
 #instructors-heading {
   margin-top: 8rem;
@@ -368,3 +350,24 @@ a {
 .instructor-title {
   margin-top: 2rem;
 }
+
+/* Media queiries */
+
+/* @media (min-width: 540px) {
+  .logo {
+    font-size: 2.5rem;
+  }
+
+  .site-navigation {
+    font-size: 1.2rem;
+  }
+
+  #about-info {
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+  }
+
+  #about-heading {
+    font-size: 2rem;
+  }
+} */
