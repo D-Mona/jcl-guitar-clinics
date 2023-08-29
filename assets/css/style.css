@@ -331,3 +331,25 @@ a {
   background-color: green;
   color: black;
 }
+/* Instructors page */
+#instructors-heading {
+  margin-top: 8rem;
+  text-align: center;
+  background-color: brown;
+  color: white;
+  padding: 8px;
+  font-size: 1.75rem;
+}
+
+#video-catalogue {
+  background-color: blue;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* .video {
+  width: 50%;
+} */
