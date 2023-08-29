@@ -348,6 +348,9 @@ a {
   padding-bottom: 2rem;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+  
 }
 
 .instructor-card {
@@ -366,9 +369,11 @@ a {
   padding: 2rem;
 }
 
-.instructor-title{
-  margin-top: 2rem;;
-
+.instructor-title {
+  margin-top: 2rem;
 }
 
+.new-card{
+  background-color: bisque;
 
+}
