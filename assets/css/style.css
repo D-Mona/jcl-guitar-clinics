@@ -333,7 +333,7 @@ a {
 }
 /* Instructors page */
 #instructors-heading {
-  margin-top: 8rem;
+  margin-top: 10rem;
   text-align: center;
   background-color: brown;
   color: white;
@@ -341,15 +341,34 @@ a {
   font-size: 1.75rem;
 }
 
-#video-catalogue {
+#instructors-container {
+  margin-top: 3rem;
   background-color: blue;
   padding-top: 2rem;
   padding-bottom: 2rem;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
 }
 
-/* .video {
-  width: 50%;
-} */
+.instructor-card {
+  background-color: brown;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.instructor-info {
+  padding: 2rem;
+  text-align: center;
+}
+
+.videos {
+  padding: 2rem;
+}
+
+.instructor-title{
+  margin-top: 2rem;;
+
+}
+
+
