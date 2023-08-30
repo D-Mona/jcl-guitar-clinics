@@ -72,21 +72,18 @@ a {
 #hero-image-container {
   background-color: blue;
   margin-top: 100px;
-  margin-bottom: .375rem;
+  margin-bottom: 0.375rem;
 }
 
 #hero-image {
   width: 100%;
-  margin-top: .25rem;
+  margin-top: 0.25rem;
 }
 
 /* About section */
 #about-section {
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* text-align: center; */
   background-color: chartreuse;
-  font-size: 1.2rem;
+  line-height: 1.25rem;
 }
 
 #about-heading {
@@ -106,9 +103,6 @@ a {
 /* Host section */
 #host-section {
   background-color: yellow;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   padding: 1rem;
 }
 
@@ -130,7 +124,6 @@ a {
 #host-picture-quote-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   background-color: aqua;
 }
 
@@ -248,7 +241,7 @@ a {
 #registration-status {
   background-color: white;
   color: red;
-  padding: .5rem;
+  padding: 0.5rem;
   text-transform: uppercase;
   text-align: center;
   border-radius: 1rem;
@@ -257,7 +250,7 @@ a {
 
 #registration-info {
   background-color: blue;
-  padding: .5rem;
+  padding: 0.5rem;
   text-align: center;
   text-transform: capitalize;
   line-height: 1.25rem;
@@ -296,8 +289,8 @@ a {
   margin-top: -0.5rem;
   background-color: black;
   color: green;
-  padding-top: .75rem;
-  padding-bottom: .75rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
   border: none;
   font-style: oblique;
   font-weight: 550;
@@ -314,7 +307,7 @@ a {
   text-align: center;
   background-color: brown;
   color: white;
-  padding: .5rem;
+  padding: 0.5rem;
   font-size: 1rem;
 }
 
