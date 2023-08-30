@@ -2,6 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Caprasimo&display=swap");
 
+/* Keeps default font size to 16px on browsers with font settings changed */
+html {
+  font-size: 16px;
+}
+
 /* Overrides browser defaults for margin and padding */
 * {
   margin: 0;
@@ -14,7 +19,6 @@ body {
   flex-direction: column;
   background-color: green;
   color: gray;
-  font-size: 16px;
 }
 
 /* Removes default anchor decorations and sets deault colour to grey */
@@ -36,10 +40,9 @@ a {
   text-align: center;
   padding-top: 12px;
   padding-bottom: 12px;
-  font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .logo a:hover {
@@ -56,7 +59,6 @@ a {
   display: flex;
   flex-direction: row;
   gap: 8px;
-  font-size: 0.85rem;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
@@ -94,14 +96,11 @@ a {
   text-transform: uppercase;
   text-decoration-line: overline;
   text-align: center;
-  font-size: 1.25rem;
 }
 
 #about-info {
   padding: 16px;
   text-transform: capitalize;
-  line-height: 1.2rem;
-  font-size: 1rem;
 }
 
 /* Host section */
@@ -116,7 +115,6 @@ a {
 #host-outer-container {
   background-color: blue;
   padding: 16px;
-  /* width: 50%; */
   border-radius: 0.9rem;
 }
 
@@ -127,7 +125,6 @@ a {
   padding-bottom: 20px;
   color: white;
   text-transform: capitalize;
-  font-size: 1.25rem;
 }
 
 #host-picture-quote-container {
@@ -165,7 +162,7 @@ a {
   flex-direction: row;
   list-style: none;
   justify-content: space-evenly;
-  font-size: 32px;
+  font-size: 2rem;
   text-transform: uppercase;
 }
 
@@ -209,7 +206,6 @@ a {
   padding-top: 1rem;
   text-align: center;
   color: white;
-  font-size: 1.25rem;
   text-decoration: overline;
   text-transform: uppercase;
 }
@@ -222,9 +218,10 @@ a {
 
 #address {
   background-color: orange;
-  padding-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   color: white;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   text-align: center;
 }
 
@@ -241,7 +238,6 @@ a {
 
 /* Registration page */
 #registration-container {
-  /* height: 100vh; */
   margin-top: 10rem;
   display: flex;
   flex-direction: column;
@@ -256,16 +252,15 @@ a {
   text-transform: uppercase;
   text-align: center;
   border-radius: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 #registration-info {
   background-color: blue;
   padding: 8px;
   text-align: center;
-  font-size: 1rem;
   text-transform: capitalize;
-  line-height: 1.5rem;
+  line-height: 1.25rem;
 }
 
 #registration-image-container {
@@ -298,7 +293,7 @@ a {
 }
 
 #register-button {
-  margin-top: -8px;
+  margin-top: -0.5rem;
   background-color: black;
   color: green;
   padding-top: 12px;
