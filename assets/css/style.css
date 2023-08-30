@@ -72,26 +72,27 @@ a {
 #hero-image-container {
   background-color: blue;
   margin-top: 100px;
-  margin-bottom: 6px;
+  margin-bottom: .375rem;
 }
 
 #hero-image {
   width: 100%;
-  margin-top: 4px;
+  margin-top: .25rem;
 }
 
 /* About section */
 #about-section {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* text-align: center; */
   background-color: chartreuse;
+  font-size: 1.2rem;
 }
 
 #about-heading {
   background-color: darkgoldenrod;
-  padding-top: 20px;
-  padding-bottom: 16px;
+  padding-top: 1.25rem;
+  padding-bottom: 1rem;
   color: white;
   text-transform: uppercase;
   text-decoration-line: overline;
@@ -99,8 +100,7 @@ a {
 }
 
 #about-info {
-  padding: 16px;
-  text-transform: capitalize;
+  padding: 2rem;
 }
 
 /* Host section */
@@ -109,20 +109,20 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 16px;
+  padding: 1rem;
 }
 
 #host-outer-container {
   background-color: blue;
-  padding: 16px;
+  padding: 1rem;
   border-radius: 0.9rem;
 }
 
 #host-heading {
   background-color: red;
   text-align: center;
-  padding-top: 32px;
-  padding-bottom: 20px;
+  padding-top: 2rem;
+  padding-bottom: 1.25rem;
   color: white;
   text-transform: capitalize;
 }
@@ -137,7 +137,7 @@ a {
 #host-quote {
   background-color: brown;
   width: 50%;
-  padding: 16px;
+  padding: 1rem;
   align-self: center;
   font-family: "Satisfy", cursive;
 }
@@ -167,7 +167,7 @@ a {
 }
 
 .footer-top {
-  padding-top: 16px;
+  padding-top: 1rem;
   color: white;
   text-align: center;
   text-transform: capitalize;
@@ -248,7 +248,7 @@ a {
 #registration-status {
   background-color: white;
   color: red;
-  padding: 8px;
+  padding: .5rem;
   text-transform: uppercase;
   text-align: center;
   border-radius: 1rem;
@@ -257,7 +257,7 @@ a {
 
 #registration-info {
   background-color: blue;
-  padding: 8px;
+  padding: .5rem;
   text-align: center;
   text-transform: capitalize;
   line-height: 1.25rem;
@@ -265,7 +265,7 @@ a {
 
 #registration-image-container {
   background-color: red;
-  width: 250px;
+  width: 20rem;
   margin-bottom: 4rem;
 }
 
@@ -296,8 +296,8 @@ a {
   margin-top: -0.5rem;
   background-color: black;
   color: green;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
   border: none;
   font-style: oblique;
   font-weight: 550;
@@ -314,7 +314,7 @@ a {
   text-align: center;
   background-color: brown;
   color: white;
-  padding: 8px;
+  padding: .5rem;
   font-size: 1rem;
 }
 
