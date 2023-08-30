@@ -350,6 +350,19 @@ p {
   margin-top: 2rem;
 }
 
+/* Thank you page */
+
+#thank-you-image {
+  height: 100vh;
+  width: 100%;
+}
+
+#thank-you-message {
+  margin-top: 5.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  color: white;
+}
 /* Media queiries */
 
 @media (min-width: 540px) {
@@ -369,6 +382,10 @@ p {
 
   #host-outer-container {
     width: 75%;
+  }
+
+  #thank-you-message {
+    margin-top: 5.75rem;
   }
 }
 
@@ -416,6 +433,10 @@ p {
   #map-container {
     width: 75%;
   }
+
+  #thank-you-message {
+    margin-top: 6.25rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -450,6 +471,10 @@ p {
   #registration-image-container {
     width: 50%;
   }
+
+  #thank-you-message {
+    margin-top: 7.25rem;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -483,6 +508,10 @@ p {
   #registration-image-container {
     width: 30%;
   }
+
+  #thank-you-message {
+    margin-top: 7.5rem;
+  }
 }
 
 @media (min-width: 1920px) {
@@ -512,5 +541,9 @@ p {
 
   #registration-image-container {
     width: 25%;
+  }
+
+  #thank-you-message {
+    margin-top: 7.75rem;
   }
 }
