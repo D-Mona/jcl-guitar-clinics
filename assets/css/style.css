@@ -198,6 +198,7 @@ p {
 /* Location page */
 #location-section {
   background-color: firebrick;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -216,7 +217,8 @@ p {
   background-color: blue;
   text-align: center;
   margin-bottom: 5rem;
- }
+  align-self: center;
+}
 
 #address {
   background-color: orange;
@@ -410,7 +412,10 @@ p {
   .instructor-card {
     width: 75%;
   }
- 
+
+  #map-container {
+    width: 75%;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -437,6 +442,10 @@ p {
   .instructor-card {
     width: 50%;
   }
+
+  #map-container {
+    width: 60%;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -462,6 +471,10 @@ p {
   .instructor-card {
     width: 40%;
   }
+
+  #map-container {
+    width: 50%;
+  }
 }
 
 @media (min-width: 1920px) {
@@ -482,6 +495,10 @@ p {
   }
 
   #host-outer-container {
+    width: 40%;
+  }
+
+  #map-container {
     width: 40%;
   }
 }
