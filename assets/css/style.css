@@ -269,7 +269,7 @@ p {
 
 #registration-image-container {
   background-color: red;
-  width: 20rem;
+  width: 75%;
   margin-bottom: 4rem;
 }
 
@@ -446,6 +446,10 @@ p {
   #map-container {
     width: 60%;
   }
+
+  #registration-image-container {
+    width: 50%;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -475,6 +479,10 @@ p {
   #map-container {
     width: 50%;
   }
+
+  #registration-image-container {
+    width: 30%;
+  }
 }
 
 @media (min-width: 1920px) {
@@ -500,5 +508,9 @@ p {
 
   #map-container {
     width: 40%;
+  }
+
+  #registration-image-container {
+    width: 25%;
   }
 }
