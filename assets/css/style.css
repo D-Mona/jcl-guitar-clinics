@@ -387,6 +387,10 @@ p {
   #thank-you-message {
     margin-top: 5.75rem;
   }
+
+  #registration-image-container {
+    width: 50%;
+  }
 }
 
 @media (min-width: 768px) {
@@ -470,6 +474,10 @@ p {
 
   #registration-image-container {
     width: 50%;
+  }
+
+  #registration-image-container {
+    width: 40%;
   }
 
   #thank-you-message {
