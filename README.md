@@ -1,8 +1,8 @@
 # JCL Guitar Clinics
 
-JCL Guitar Clinics ia a fictional website for musicians(guitar players) who would like to improve their knowledge of music and playing techniques. It caters to musicians of any ability and has open registrations approximately once every two months. Registration is open for 3 days before an event has been organised and registrations are based on a first come first served basis. This is to allow a diverse group of players to get an opportunity to attend a clinic.
+JCL Guitar Clinics ia a fictional website for musicians(guitar players) who would like to improve their knowledge of music and playing technique. It caters to musicians of any ability and has open registrations approximately once every two months. Registration is open for 3 days before an event is to take place and registrations are based on a first come first served basis. This is to allow a diverse group of players to get an opportunity to attend a clinic.
 
-Users of the site will find info on the instructors who participate in the clinic and their styles and music, demonstrated by some video content and introductory information. If registrations are available they will be able to register their interest through an application form and subsequently will be contacted with follow up information relating to the event as soon as the organisers have recieved their details.
+Users of the site will find info on the instructors who participate in the clinic, and their styles of music. This is demonstrated by some video content and introductory information on a section of the site. If registrations are open users will be able to register their interest through an application form. They will subsequently be contacted with follow up information relating to the event as soon as the organisers have recieved their details.
 
 ![Responsiveness](assets/images/responsive-image.png)
 
@@ -19,16 +19,16 @@ Users of the site will find info on the instructors who participate in the clini
 - **The Home Page**
 
 - The Home page begins with a photograph of particpants playing together at a previous clinic.
-This relays to the user that it will be an engaging and fun experience and a chance to meet with like minded fellow musicians.
+This relays to the user that it will be an engaging and fun experience and a chance to meet up with like minded fellow musicians and peers.
 - The next section contains all of the information relating to the clinic that leaves the user clear as to what to expect from any hosted events.
-- The final section is photograph and quote from one of the instructors and the event organiser, Pat. This gives a personal touch to the page and reminds users to check regularly for open registrations.
+- The final section is a photograph and quote from one of the instructors and the event organiser, Pat. This gives a personal touch to the page and reminds users to check regularly for the open registrations.
 - There is a footer at the very end of the page that contains links to all the socials of JCL Guitar Clinics.
 
 ![Home Page](assets/images/home-page.png)
 
 - **The Instructors Page**
 
-- This page showcases the four instructors and contains brief bios of each as well as a video of each of the instructors in a live performance.
+- This page showcases the four instructors and contains brief bios of each, as well as a video of each of the instructors in a live performance.
 - The user should be clear as to what styles of music will be performed, as well as the abilities of each instructor.
 
 ![Instructors Page](assets/images/instructors-page.png)
@@ -42,8 +42,8 @@ This relays to the user that it will be an engaging and fun experience and a cha
 
 - **The Registration Page**
 
-- This page contains a contact form for users to register if registration is available.
-- users must enter their name, email and optional section if any special requirements may be needed.
+- This page contains a contact form for users to register if the registrations are open.
+- Users must enter their name, email and an optional section if any special requirements may be needed.
 - It validates the users inputs to assure proper registration success from the applicant.
 - It redirects to a thank you page if successful.
 
@@ -60,7 +60,7 @@ This relays to the user that it will be an engaging and fun experience and a cha
 
 ### **Target Audiences:**
 * Guitar players looking to improve their technique.
-* Guitar players or another type of musician looking to improve their knowledge of music theory and composition.
+* Guitar players or other types of musician looking to improve their knowledge of music theory and composition.
 * Musicians looking to meet up with other musicians.
 
 ### **User Stories:**
@@ -74,13 +74,16 @@ This relays to the user that it will be an engaging and fun experience and a cha
 * To make the user feel a connection to the site.
 * To entice the user to participate on it's social media channels.
 * To provide the user with a means of attending a clinic.
-* To offer the user a way to locate and contact clinic.
+* To offer the user a way to locate and contact the clinic.
 * To provide media as a form of explanation of the site.
 
 ## Design
 
 - I originally drew rough designs on paper and decided due to time restraints that I would keep both the mobile and desktop versions pretty much the same.
-- I created quick wireframes that were similar to the original drawings for demonstration purposes.
+
+- I had an idea of the colour scheme from the start and literally implemented right it at the very end.
+
+- I created quick wireframes that were similar to the original drawings for demonstration purposes here.
 
 **Home Page**
 
@@ -104,14 +107,14 @@ This relays to the user that it will be an engaging and fun experience and a cha
 
 - I tested that the project is reponsive on all devices using dev-tools.
 
-- I tested that all navigation performs as intended.
+- I tested that all of the navigation performs as intended.
 
 - I tested the registration form for the correct redirection and validation of user inputs.
 
 ### Validator Testing
 
 - HTML
-  - No errors were found when passing through the WC3 Markup Validation Service.
+  - No errors were found when passing through the W3C Markup Validation Service.
 
  ![HTML Validation](assets/images/html-validation.png)
 
@@ -127,7 +130,7 @@ This relays to the user that it will be an engaging and fun experience and a cha
 
 ![Conversion Performance](assets/images/after-conversion-lighthouse-report.png)
 
-- I was losing 6 points on the accessibility on the following image due to contrasting colours but it was a colour scheme I liked so I chose to leave it.
+- I was losing 6 points on the accessibility on the following image due to contrasting colours, but it was a colour scheme that I liked, and it was crystal clear to me so I chose to leave it.
 
 ![Accessibility](assets/images/accessibilty-contrast-issue.png)
    
@@ -157,8 +160,10 @@ The live link can be found here - https://d-mona.github.io/jcl-guitar-clinics/ .
 
 ### Media
 
-- All photos on the Home page were taken from https://commons.wikimedia.org .
+- The images on the Home page were taken from https://commons.wikimedia.org .
 - The images on the registration form and thank you page were taken from https://www.pexels.com/ .
 
+### Tech
+- I used VSCode for the project creation.
 - I used https://imageresizer.com/ for resizing my images for better performance.
 
