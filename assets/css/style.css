@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Caprasimo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap");
 
 /* Keeps default font size to 16px on browsers with font settings changed */
 html {
@@ -13,18 +12,22 @@ html {
   padding: 0;
 }
 
-/* Sets body elements to flex column,sets default colours and sets pixels to 16 to avoid issues on browsers with adjusted font sizes */
+/* Sets body elements to flex column,sets default colours */
 body {
   display: flex;
   flex-direction: column;
-  background-color: green;
-  color: gray;
+  background: linear-gradient(
+    90deg,
+    rgba(18, 8, 201, 1) 0%,
+    rgb(13, 33, 122) 100%
+  );
+  color: white;
 }
 
-/* Removes default anchor decorations and sets deault colour to grey */
+/* Removes default anchor styles */
 a {
   text-decoration: none;
-  color: gray;
+  color: white;
 }
 
 h1 {
@@ -41,7 +44,11 @@ p {
 
 /* Logo and navigation section */
 .logo-navigation-header {
-  background-color: purple;
+  background: linear-gradient(
+    90deg,
+    rgba(18, 8, 201, 1) 0%,
+    rgb(13, 33, 122) 100%
+  );
   position: fixed;
   top: 0;
   width: 100%;
@@ -49,6 +56,7 @@ p {
 }
 
 .logo {
+  font-family: "Sedgwick Ave Display", cursive;
   text-align: center;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -58,7 +66,7 @@ p {
 }
 
 .logo a:hover {
-  background-color: gray;
+  background-color: white;
   color: black;
 }
 
@@ -77,13 +85,12 @@ p {
 }
 
 .site-navigation a:hover {
-  background-color: gray;
+  background-color: white;
   color: black;
 }
 
 /* Hero image section */
 #hero-image-container {
-  background-color: blue;
   margin-top: 5.5rem;
   margin-bottom: 0.5rem;
 }
@@ -95,7 +102,6 @@ p {
 
 /* About section */
 #about-section {
-  background-color: chartreuse;
   line-height: 1.25rem;
 }
 
@@ -114,41 +120,39 @@ p {
 
 /* Host section */
 #host-section {
-  background-color: yellow;
   padding: 1rem;
 }
 
 #host-outer-container {
-  background-color: blue;
+  background-color: darkgoldenrod;
   padding: 1rem;
   border-radius: 0.9rem;
 }
 
 #host-heading {
-  background-color: red;
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 1.25rem;
-  color: white;
   text-transform: capitalize;
 }
 
 #host-picture-quote-container {
   display: flex;
   flex-direction: row;
-  background-color: aqua;
 }
 
 #host-quote {
-  background-color: brown;
   width: 50%;
   padding: 1rem;
   align-self: center;
   font-family: "Satisfy", cursive;
 }
 
+#host-quote p {
+  color: black;
+}
+
 #host-picture-container {
-  background-color: cadetblue;
   width: 50%;
   align-self: center;
 }
@@ -197,48 +201,45 @@ p {
 
 /* Location page */
 #location-section {
-  background-color: firebrick;
   min-height: 100%;
   display: flex;
   flex-direction: column;
 }
 
 #location-heading {
-  background-color: red;
+  background-color: darkgoldenrod;
   margin-top: 10rem;
   margin-bottom: 5rem;
   padding-top: 1rem;
+  padding-bottom: 1rem;
   text-align: center;
-  color: white;
   text-transform: uppercase;
 }
 
 #map-container {
-  background-color: blue;
   text-align: center;
   margin-bottom: 5rem;
   align-self: center;
 }
 
 #address {
-  background-color: orange;
+  background-color: darkgoldenrod;
   padding-top: 1rem;
   padding-bottom: 1rem;
   color: white;
   font-size: 1.2rem;
   text-align: center;
-  /* padding-bottom: 5rem; */
 }
 
 #address a {
-  color: green;
-  background-color: black;
+  color: black;
+  background-color: green;
   font-weight: bold;
 }
 
 #address a:hover {
-  color: black;
-  background-color: green;
+  color: green;
+  background-color: black;
 }
 
 /* Registration page */
@@ -260,7 +261,7 @@ p {
 }
 
 #registration-info {
-  background-color: blue;
+  background-color: darkgoldenrod;
   padding: 0.5rem;
   text-align: center;
   text-transform: capitalize;
@@ -268,7 +269,7 @@ p {
 }
 
 #registration-image-container {
-  background-color: red;
+  background-color: darkgoldenrod;
   width: 75%;
   margin-bottom: 4rem;
 }
@@ -286,7 +287,6 @@ p {
   flex-direction: column;
   gap: 0.5rem;
   font-weight: bold;
-  color: white;
 }
 
 .form-field {
@@ -314,17 +314,16 @@ p {
 
 /* Instructors page */
 #instructors-heading {
-  margin-top: 8rem;
+  margin-top: 10rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   text-transform: uppercase;
   text-align: center;
-  background-color: brown;
-  color: white;
-  padding: 0.5rem;
+  background-color: darkgoldenrod;
 }
 
 #instructors-container {
   margin-top: 3rem;
-  background-color: blue;
   padding-bottom: 2rem;
   display: flex;
   flex-direction: column;
@@ -332,7 +331,7 @@ p {
 }
 
 .instructor-card {
-  background-color: brown;
+  background-color: darkgoldenrod;
   width: 90%;
   margin-top: 2rem;
   text-align: center;
@@ -340,6 +339,7 @@ p {
 
 .instructor-info {
   padding: 2rem;
+  color: black;
 }
 
 .videos {
@@ -351,7 +351,6 @@ p {
 }
 
 /* Thank you page */
-
 #thank-you-image {
   height: 100vh;
   width: 100%;
@@ -361,10 +360,9 @@ p {
   margin-top: 5.5rem;
   margin-bottom: 0.5rem;
   text-align: center;
-  color: white;
 }
-/* Media queiries */
 
+/* Media queiries */
 @media (min-width: 540px) {
   .logo {
     font-size: 1.75rem;
