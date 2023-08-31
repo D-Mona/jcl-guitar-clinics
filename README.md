@@ -56,6 +56,27 @@ This relays to the user that it will be an engaging and fun experience and a cha
 
 ![Footer](assets/images/footer.png)
 
+## Design
+
+- I originally drew rough designs on paper and decided due to time restraints that I would keep both the mobile and desktop versions pretty much the same.
+- I created quick wireframes that were similar to the original drawings for demonstration purposes.
+
+**Home Page**
+
+![Home page](assets/images/home-page-wf.png)
+
+**Instructor Page**
+
+![Instructor page](assets/images/instructors-page-wf.png)
+
+**Location Page**
+
+![Location page](assets/images/location-page-wf.png)
+
+**Registration Page**
+
+![Registration page](assets/images/registration-page-wf.png)
+
 ## Testing
 
 - I tested that the site functions correctly on Firefox, Chrome, Edge and Safari.
@@ -98,8 +119,8 @@ The live link can be found here - https://d-mona.github.io/jcl-guitar-clinics/ .
 ### Content
 
 - The instructor information on the Instructors page was taken from each musicians page on https://www.wikipedia.org/ .
-- All of the videos on the Instructors page are from https://www.youtube.com .
-- All icons in the footer were taken from https://fontawesome.com .
+- All of the videos on the Instructors page were from https://www.youtube.com .
+- All the icons in the footer were taken from https://fontawesome.com .
 
 ### Media
 
