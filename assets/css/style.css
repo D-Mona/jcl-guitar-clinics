@@ -24,7 +24,7 @@ body {
   color: white;
 }
 
-/* Removes default anchor styles */
+/* Removes default styles */
 a {
   text-decoration: none;
   color: white;
@@ -179,7 +179,6 @@ p {
 
 .footer-top {
   padding-top: 1rem;
-  color: white;
   text-align: center;
   text-transform: capitalize;
   font-size: 1rem;
@@ -373,7 +372,6 @@ p {
 
   #hero-image-container {
     margin-top: 5rem;
-    
   }
 
   #host-section {
@@ -386,8 +384,8 @@ p {
   }
 
   #host-quote p {
-  font-size: 1.35rem;
- }
+    font-size: 1.35rem;
+  }
 
   #map-container {
     width: 75%;
@@ -431,9 +429,9 @@ p {
     line-height: 1.5rem;
   }
 
- #host-quote p {
-  font-size: 1.5rem;
- }
+  #host-quote p {
+    font-size: 1.5rem;
+  }
 
   #host-outer-container {
     width: 60%;
@@ -470,8 +468,8 @@ p {
   }
 
   #host-quote p {
-  font-size: 1.6rem;
- }
+    font-size: 1.6rem;
+  }
 
   #about-info {
     padding: 6rem;
@@ -561,8 +559,8 @@ p {
   }
 
   #host-quote p {
-  font-size: 2rem;
- }
+    font-size: 2rem;
+  }
 
   #map-container {
     width: 40%;
