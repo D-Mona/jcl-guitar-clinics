@@ -74,9 +74,9 @@ This relays to the user that it will be an engaging and fun experience and a cha
   ![HTML Validation](assets\media\)
 
 - CSS
-  - No errors were found when passing through the official
-
-  ![CSS Validation](assets\media\)
+  - No errors were found when passing through The W3C CSS Validation Service.
+  
+  ![CSS Validation](assets/images/css-validation.png)
 
 ### Unfixed Bugs
 
@@ -91,18 +91,18 @@ None.
 - Select the root folder.
 - Click save.
 
-The live link can be found here - https://d-mona.github.io/jcl-guitar-clinics/
+The live link can be found here - https://d-mona.github.io/jcl-guitar-clinics/ .
 
 ## Credits
 
 ### Content
 
-- The instructor information on the Instructors page was taken from each musicians page on https://www.wikipedia.org/
-- All of the videos on the Istructors page are from https://www.youtube.com
-- All icons in the footer were taken from https://fontawesome.com
+- The instructor information on the Instructors page was taken from each musicians page on https://www.wikipedia.org/ .
+- All of the videos on the Instructors page are from https://www.youtube.com .
+- All icons in the footer were taken from https://fontawesome.com .
 
 ### Media
 
-- All photos on the Home page were taken from https://commons.wikimedia.org
-- Images on the registration form and Thank you page were taken from https://www.pexels.com/
+- All photos on the Home page were taken from https://commons.wikimedia.org .
+- Images on the registration form and Thank you page were taken from https://www.pexels.com/ .
 
