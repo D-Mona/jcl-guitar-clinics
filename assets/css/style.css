@@ -149,7 +149,7 @@ p {
 }
 
 #host-quote p {
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   font-weight: bold;
   color: black;
 }
@@ -385,6 +385,10 @@ p {
     width: 75%;
   }
 
+  #host-quote p {
+  font-size: 1.35rem;
+ }
+
   #map-container {
     width: 75%;
   }
@@ -428,7 +432,7 @@ p {
   }
 
  #host-quote p {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
  }
 
   #host-outer-container {
@@ -464,6 +468,10 @@ p {
   h1 {
     font-size: 1.75rem;
   }
+
+  #host-quote p {
+  font-size: 1.6rem;
+ }
 
   #about-info {
     padding: 6rem;
@@ -551,6 +559,10 @@ p {
   #host-outer-container {
     width: 40%;
   }
+
+  #host-quote p {
+  font-size: 2rem;
+ }
 
   #map-container {
     width: 40%;
