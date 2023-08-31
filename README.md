@@ -4,7 +4,7 @@ JCL Guitar Clinics ia a fictional website for musicians(guitar players) who woul
 
 Users of the site will find info on the instructors who participate in the clinic and their styles and music, demonstrated by some video content and introductory information. If registrations are available they will be able to register their interest through an application form and subsequently will be contacted with follow up information relating to the event as soon as the organisers have recieved their details.
 
-![Responsiveness](assets\media\)
+![Responsiveness](assets\images\responsive-image.png)
 
 ## Features
 
@@ -14,7 +14,7 @@ Users of the site will find info on the instructors who participate in the clini
 
   - Featured in a fixed header at the top of all four main pages, as well as the redirected Thank you page when a user has successfully registered. It includes links to the Home page, Instructors page, Location page and Registration page. The Logo/Title is also anchored to the Home page.
 
-![Nav Bar](assets\media\)
+![Nav Bar](assets\images\nav-bar.png)
 
 - **The Home Page**
 
@@ -24,21 +24,21 @@ This relays to the user that it will be an engaging and fun experience and a cha
 - The final section is photograph and quote from one of the instructors and the event organiser, Pat. This gives a personal touch to the page and reminds users to check regularly for open registrations.
 - There is a footer at the very end of the page that contains links to all the socials of JCL Guitar Clinics.
 
-![Home Page](assets\media\)
+![Home Page](assets\images\home-page.png)
 
 - **The Instructors Page**
 
 - This page showcases the four instructors and contains brief bios of each as well as a video of each of the instructors in a live performance.
 - The user should be clear as to what styles of music will be performed, as well as the abilities of each instructor.
 
-![Instructors Page](assets\media\)
+![Instructors Page](assets\images\instructors-page.png)
 
 -  **The Location Page**
 
 - This page contains the address and any contact details of the clinic, as well a Google map of the location.
 - Users can decide if the venue is within their means of transport to attend an event.
 
-![Location Page](assets\media\)
+![Location Page](assets\images\location-page.png)
 
 - **The Registration Page**
 
@@ -47,10 +47,14 @@ This relays to the user that it will be an engaging and fun experience and a cha
 - It validates the users inputs to assure proper registration success from the applicant.
 - It redirects to a thank you page if successful.
 
+![Registration Page Page](assets\images\registration-page.png)
+
 **The Footer**
 
 - There is a footer at the very end of every page that contains links to all the socials of JCL Guitar Clinics.
 - Users can choose to participate if desired, or look for footage of previous events, if available.
+
+![Footer](assets\images\footer.png)
 
 ## Testing
 
