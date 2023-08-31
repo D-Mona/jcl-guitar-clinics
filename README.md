@@ -56,6 +56,27 @@ This relays to the user that it will be an engaging and fun experience and a cha
 
 ![Footer](assets/images/footer.png)
 
+## **Planning**
+
+### **Target Audiences:**
+* Guitar players looking to improve their technique.
+* Guitar players or another type of musician looking to improve their knowledge of music theory and composition.
+* Musicians looking to meet up with other musicians.
+
+### **User Stories:**
+* As a user, I want to be able navigate the site easily and intuitively.
+* As a user, I want to understand the content on the site quickly.
+* As a user, I want to know of any monetory costs involved.
+* As a user, I want a way to interact or participate with the site.
+
+### **Site Aims:**
+* To provide information on the specific guitar clinic.
+* To make the user feel a connection to the site.
+* To entice the user to participate on it's social media channels.
+* To provide the user with a means of attending a clinic.
+* To offer the user a way to locate and contact clinic.
+* To provide media as a form of explanation of the site.
+
 ## Design
 
 - I originally drew rough designs on paper and decided due to time restraints that I would keep both the mobile and desktop versions pretty much the same.
@@ -85,19 +106,31 @@ This relays to the user that it will be an engaging and fun experience and a cha
 
 - I tested that all navigation performs as intended.
 
-- I tested the registration form for the correct validation of user inputs.
+- I tested the registration form for the correct redirection and validation of user inputs.
 
 ### Validator Testing
 
 - HTML
-  - No errors were returned when passing through the official 
+  - No errors were found when passing through the WC3 Markup Validation Service.
 
-  ![HTML Validation](assets/images/html-validation.png)
+ ![HTML Validation](assets/images/html-validation.png)
 
 - CSS
   - No errors were found when passing through The W3C CSS Validation Service.
   
-  ![CSS Validation](assets/images/css-validation.png)
+![CSS Validation](assets/images/css-validation.png)
+
+- Performance and Accessibility
+
+![Initial Performance](assets/images/original-lighthouse-report.png)
+   - Initially I had a poor performance score but after resizing the culprit images and converting to webp my score was improved dramatically.
+
+![Conversion Performance](assets/images/after-conversion-lighthouse-report.png)
+
+- I was losing 6 points on the accessibility on the following image due to contrasting colours but it was a colour scheme I liked so I chose to leave it.
+
+![Accessibility](assets/images/accessibilty-contrast-issue.png)
+   
 
 ### Unfixed Bugs
 
@@ -120,10 +153,12 @@ The live link can be found here - https://d-mona.github.io/jcl-guitar-clinics/ .
 
 - The instructor information on the Instructors page was taken from each musicians page on https://www.wikipedia.org/ .
 - All of the videos on the Instructors page were from https://www.youtube.com .
-- All the icons in the footer were taken from https://fontawesome.com .
+- All of the icons in the footer were taken from https://fontawesome.com .
 
 ### Media
 
 - All photos on the Home page were taken from https://commons.wikimedia.org .
-- Images on the registration form and Thank you page were taken from https://www.pexels.com/ .
+- The images on the registration form and thank you page were taken from https://www.pexels.com/ .
+
+- I used https://imageresizer.com/ for resizing my images for better performance.
 
