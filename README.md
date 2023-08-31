@@ -71,7 +71,7 @@ This relays to the user that it will be an engaging and fun experience and a cha
 - HTML
   - No errors were returned when passing through the official 
 
-  ![HTML Validation](assets\media\)
+  ![HTML Validation](assets/images/html-validation.png)
 
 - CSS
   - No errors were found when passing through The W3C CSS Validation Service.
