@@ -4,7 +4,7 @@ JCL Guitar Clinics ia a fictional website for musicians(guitar players) who woul
 
 Users of the site will find info on the instructors who participate in the clinic and their styles and music, demonstrated by some video content and introductory information. If registrations are available they will be able to register their interest through an application form and subsequently will be contacted with follow up information relating to the event as soon as the organisers have recieved their details.
 
-![Responsiveness](assets\images\responsive-image.png)
+![Responsiveness](assets/images/responsive-image.png)
 
 ## Features
 
